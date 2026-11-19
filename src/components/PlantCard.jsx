@@ -3,6 +3,8 @@ import React, { useState } from "react";
 function PlantCard({ plant }) {
   const [isInStock, setIsInStock] = useState(true);
 
+  
+
   function handleToggleStock() {
     setIsInStock((prev) => !prev);
   }
